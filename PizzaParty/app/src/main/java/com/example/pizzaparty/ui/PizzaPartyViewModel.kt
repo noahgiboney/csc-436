@@ -18,9 +18,7 @@ class PizzaPartyViewModel: ViewModel() {
         private set
 
     fun calcPizzas() {
-        Log.i("numberPeople", numPeople)
         val calc = PizzaCalculator(numPeople.toIntOrNull() ?: 0, hungerLevel)
-        Log.i("logger", "${calc.totalPizzas}")
         totalPizza = calc.totalPizzas
     }
 }
