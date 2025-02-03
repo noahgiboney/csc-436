@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pizza Party</string>
+    <string name="equation">%d times %s = ?</string>
 </resources>
